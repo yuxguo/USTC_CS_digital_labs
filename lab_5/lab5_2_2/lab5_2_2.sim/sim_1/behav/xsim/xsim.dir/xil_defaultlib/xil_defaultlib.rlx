@@ -1,0 +1,11 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+,,,,,,lab5_2_2_tb,,,,,,,,
+H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.srcs/sources_1/new/1.v,1541146876,verilog,,H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.srcs/sources_1/new/2.v,,D_latch_behavior,,,,,,,,
+H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.srcs/sources_1/new/2.v,1541149704,verilog,,H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.srcs/sources_1/new/3.v,,D_pp_behavior,,,,,,,,
+H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.srcs/sources_1/new/3.v,1541147880,verilog,,H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.srcs/sources_1/new/RS_Latch.v,,D_nn_behavior,,,,,,,,
+H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.srcs/sources_1/new/RS_Latch.v,1541147364,verilog,,H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.srcs/sources_1/new/lab5_2_2.v,,RS_Latch,,,,,,,,
+H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.srcs/sources_1/new/lab5_2_2.v,1541146684,verilog,,H:/gyx verilog/digital/lab_5/lab5_2_2/lab5_2_2.srcs/sim_1/new/lab5_2_2_tb.v,,lab5_2_2,,,,,,,,

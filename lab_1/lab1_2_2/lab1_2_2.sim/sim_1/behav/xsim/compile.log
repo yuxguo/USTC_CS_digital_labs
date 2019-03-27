@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/gyx verilog/digital/lab_1/lab1_2_2/lab1_2_2.srcs/sources_1/new/lab1_2_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab1_2_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/gyx verilog/digital/lab_1/lab1_2_2/lab1_2_2.srcs/sim_1/imports/lab1_2_2/lab1_2_2_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab1_2_2_tb

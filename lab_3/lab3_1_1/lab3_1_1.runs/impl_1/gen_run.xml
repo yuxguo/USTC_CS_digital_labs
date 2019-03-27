@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1540517073">
+  <File Type="BITSTR-BMM" Name="decoder_3to8_dataflow_bd.bmm"/>
+  <File Type="ROUTE-PWR" Name="decoder_3to8_dataflow_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="decoder_3to8_dataflow.tcl"/>
+  <File Type="OPT-DCP" Name="decoder_3to8_dataflow_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="decoder_3to8_dataflow_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="decoder_3to8_dataflow_reports.tcl"/>
+  <File Type="OPT-DRC" Name="decoder_3to8_dataflow_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="decoder_3to8_dataflow.hwdef"/>
+  <File Type="PWROPT-DCP" Name="decoder_3to8_dataflow_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="decoder_3to8_dataflow_placed.dcp"/>
+  <File Type="PLACE-IO" Name="decoder_3to8_dataflow_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="decoder_3to8_dataflow_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="decoder_3to8_dataflow_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="decoder_3to8_dataflow_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="decoder_3to8_dataflow_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="decoder_3to8_dataflow.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="decoder_3to8_dataflow_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="decoder_3to8_dataflow.bin"/>
+  <File Type="PHYSOPT-DCP" Name="decoder_3to8_dataflow_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="decoder_3to8_dataflow.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="decoder_3to8_dataflow_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="decoder_3to8_dataflow_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="decoder_3to8_dataflow_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="decoder_3to8_dataflow_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="decoder_3to8_dataflow_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="decoder_3to8_dataflow.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="decoder_3to8_dataflow_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="decoder_3to8_dataflow.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="decoder_3to8_dataflow_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="decoder_3to8_dataflow_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="decoder_3to8_dataflow.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="decoder_3to8_dataflow_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="decoder_3to8_dataflow_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="decoder_3to8_dataflow_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="decoder_3to8_dataflow_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="decoder_3to8_dataflow_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="decoder_3to8_dataflow_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="decoder_3to8_dataflow_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="decoder_3to8_dataflow.vdi"/>
+  <File Type="ROUTE-CLK" Name="decoder_3to8_dataflow_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="decoder_3to8_dataflow_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="decoder_3to8_dataflow_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="decoder_3to8_dataflow_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="decoder_3to8_dataflow_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="decoder_3to8_dataflow_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="decoder_3to8_dataflow.bit"/>
+  <File Type="BITSTR-RBT" Name="decoder_3to8_dataflow.rbt"/>
+  <File Type="BITSTR-NKY" Name="decoder_3to8_dataflow.nky"/>
+  <File Type="BG-DRC" Name="decoder_3to8_dataflow.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/decoder_3to8_dataflow.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="decoder_3to8_dataflow"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lab3_1_1/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1539262149"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

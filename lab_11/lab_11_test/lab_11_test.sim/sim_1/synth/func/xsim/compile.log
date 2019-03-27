@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/gyx verilog/digital/lab_11/lab_11_test/lab_11_test.sim/sim_1/synth/func/xsim/LED_test_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_test
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/gyx verilog/digital/lab_11/lab_11_test/lab_11_test.srcs/sim_1/new/LED_test_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_test_tb

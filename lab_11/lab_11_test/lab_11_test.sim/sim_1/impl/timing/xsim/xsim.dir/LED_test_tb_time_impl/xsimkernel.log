@@ -1,0 +1,7 @@
+Running: xsim.dir/led_test_tb_time_impl/xsimk.exe -simmode gui -wdb led_test_tb_time_impl.wdb -simrunnum 0 -socket 3032
+Design successfully loaded
+Design Loading Memory Usage: 19800 KB (Peak: 19800 KB)
+Design Loading CPU Usage: 171 ms
+Simulation completed
+Simulation Memory Usage: 32628 KB (Peak: 32628 KB)
+Simulation CPU Usage: 22499 ms

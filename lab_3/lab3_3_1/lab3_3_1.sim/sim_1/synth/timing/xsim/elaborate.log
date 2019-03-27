@@ -1,0 +1,18 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto e3669dcd01d943f28e06bcf602117b07 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot lab3_3_1_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.lab3_3_1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "lab3_3_1_tb_time_synth.sdf", for root module "lab3_3_1_tb/DUT".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "lab3_3_1_tb_time_synth.sdf", for root module "lab3_3_1_tb/DUT".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.lab3_3_1
+Compiling module xil_defaultlib.lab3_3_1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab3_3_1_tb_time_synth

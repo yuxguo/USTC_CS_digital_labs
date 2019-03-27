@@ -1,0 +1,9 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 2bf451a4601c4ef7ae6dec07b5c75f2d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot lab8_2_1_tb_behav xil_defaultlib.lab8_2_1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 7 differs from formal bit length 1 for port lock [H:/gyx verilog/digital/lab_8/lab8_2_1/lab8_2_1.srcs/sim_1/new/lab8_2_1_tb.v:29]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port CE [H:/gyx verilog/digital/lab_8/lab8_2_1/lab8_2_1.srcs/sources_1/new/two_counts.v:28]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

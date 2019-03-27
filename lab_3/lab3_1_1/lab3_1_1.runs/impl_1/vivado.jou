@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Oct 26 09:26:17 2018
+# Process ID: 15804
+# Current directory: H:/gyx verilog/digital/lab_3/lab3_1_1/lab3_1_1.runs/impl_1
+# Command line: vivado.exe -log decoder_3to8_dataflow.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder_3to8_dataflow.tcl -notrace
+# Log file: H:/gyx verilog/digital/lab_3/lab3_1_1/lab3_1_1.runs/impl_1/decoder_3to8_dataflow.vdi
+# Journal file: H:/gyx verilog/digital/lab_3/lab3_1_1/lab3_1_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source decoder_3to8_dataflow.tcl -notrace

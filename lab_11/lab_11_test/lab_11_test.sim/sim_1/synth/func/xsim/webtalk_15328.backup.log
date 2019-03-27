@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Dec  8 17:07:31 2018
+# Process ID: 15328
+# Current directory: H:/gyx verilog/digital/lab_11/lab_11_test/lab_11_test.sim/sim_1/synth/func/xsim
+# Command line: wbtcv.exe -mode batch -source H:/gyx verilog/digital/lab_11/lab_11_test/lab_11_test.sim/sim_1/synth/func/xsim/xsim.dir/LED_test_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: H:/gyx verilog/digital/lab_11/lab_11_test/lab_11_test.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: H:/gyx verilog/digital/lab_11/lab_11_test/lab_11_test.sim/sim_1/synth/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source H:/gyx -notrace
+couldn't read file "H:/gyx": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Dec  8 17:07:31 2018...

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/gyx verilog/digital/lab_0/lab0/lab0.srcs/sources_1/imports/tutorial/tutorial.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tutorial
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/gyx verilog/digital/lab_0/lab0/lab0.srcs/sim_1/imports/tutorial/tutorial_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tutorial_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/gyx verilog/digital/lab_0/lab0/lab0.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1541746327">
+  <File Type="ROUTE-PWR" Name="Register_with_synch_reset_load_behavior_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Register_with_synch_reset_load_behavior.tcl"/>
+  <File Type="BITSTR-BMM" Name="Register_with_synch_reset_load_behavior_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="Register_with_synch_reset_load_behavior_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Register_with_synch_reset_load_behavior_reports.tcl"/>
+  <File Type="OPT-DCP" Name="Register_with_synch_reset_load_behavior_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Register_with_synch_reset_load_behavior_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Register_with_synch_reset_load_behavior.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Register_with_synch_reset_load_behavior_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Register_with_synch_reset_load_behavior_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Register_with_synch_reset_load_behavior_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Register_with_synch_reset_load_behavior_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Register_with_synch_reset_load_behavior_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Register_with_synch_reset_load_behavior_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Register_with_synch_reset_load_behavior_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Register_with_synch_reset_load_behavior.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Register_with_synch_reset_load_behavior_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Register_with_synch_reset_load_behavior.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Register_with_synch_reset_load_behavior_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Register_with_synch_reset_load_behavior.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Register_with_synch_reset_load_behavior_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Register_with_synch_reset_load_behavior_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Register_with_synch_reset_load_behavior_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Register_with_synch_reset_load_behavior_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Register_with_synch_reset_load_behavior_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Register_with_synch_reset_load_behavior_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="Register_with_synch_reset_load_behavior.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Register_with_synch_reset_load_behavior_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="Register_with_synch_reset_load_behavior.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Register_with_synch_reset_load_behavior_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Register_with_synch_reset_load_behavior_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Register_with_synch_reset_load_behavior.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="Register_with_synch_reset_load_behavior_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Register_with_synch_reset_load_behavior_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Register_with_synch_reset_load_behavior_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Register_with_synch_reset_load_behavior_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Register_with_synch_reset_load_behavior_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Register_with_synch_reset_load_behavior_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Register_with_synch_reset_load_behavior_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Register_with_synch_reset_load_behavior_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Register_with_synch_reset_load_behavior_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Register_with_synch_reset_load_behavior_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Register_with_synch_reset_load_behavior_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Register_with_synch_reset_load_behavior_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Register_with_synch_reset_load_behavior.bit"/>
+  <File Type="BITSTR-RBT" Name="Register_with_synch_reset_load_behavior.rbt"/>
+  <File Type="BITSTR-NKY" Name="Register_with_synch_reset_load_behavior.nky"/>
+  <File Type="BG-DRC" Name="Register_with_synch_reset_load_behavior.drc"/>
+  <File Type="RDI-RDI" Name="Register_with_synch_reset_load_behavior.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Register_with_synch_reset_load_behavior.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Register_with_synch_reset_load_behavior"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/lab6_1_1/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1539262149"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

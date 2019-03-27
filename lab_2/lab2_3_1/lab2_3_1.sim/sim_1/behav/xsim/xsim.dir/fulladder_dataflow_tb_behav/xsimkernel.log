@@ -1,0 +1,7 @@
+Running: xsim.dir/fulladder_dataflow_tb_behav/xsimk.exe -simmode gui -wdb fulladder_dataflow_tb_behav.wdb -simrunnum 0 -socket 3062
+Design successfully loaded
+Design Loading Memory Usage: 8656 KB (Peak: 8656 KB)
+Design Loading CPU Usage: 155 ms
+Simulation completed
+Simulation Memory Usage: 9220 KB (Peak: 9220 KB)
+Simulation CPU Usage: 171 ms

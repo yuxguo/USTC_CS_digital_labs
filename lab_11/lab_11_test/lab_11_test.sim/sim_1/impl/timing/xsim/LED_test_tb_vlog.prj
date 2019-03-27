@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../lab_11_test.srcs/sources_1/ip/clk_wiz_0" \
+"LED_test_tb_time_impl.v" \
+"../../../../../lab_11_test.srcs/sim_1/new/led_test_tb.v" \
+
+# Do not sort compile order
+nosort

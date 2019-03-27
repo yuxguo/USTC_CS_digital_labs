@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Oct  6 13:57:08 2018
+# Process ID: 17444
+# Current directory: H:/gyx verilog/digital/lab_0/lab0/lab0.runs/synth_1
+# Command line: vivado.exe -log tutorial.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tutorial.tcl
+# Log file: H:/gyx verilog/digital/lab_0/lab0/lab0.runs/synth_1/tutorial.vds
+# Journal file: H:/gyx verilog/digital/lab_0/lab0/lab0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tutorial.tcl -notrace

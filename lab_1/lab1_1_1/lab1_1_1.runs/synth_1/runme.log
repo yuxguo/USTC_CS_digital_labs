@@ -1,0 +1,23 @@
+
+*** Running vivado
+    with args -log lab1_1_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab1_1_1.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source lab1_1_1.tcl -notrace
+Command: synth_design -top lab1_1_1 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8960 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 333.758 ; gain = 100.180
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab1_1_1' [D:/¿œ”≤≈Ã/digital/lab_1/lab1_1_1/lab1_1_1.srcs/sources_1/new/lab1_1_1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lab1_1_1' (1#1) [D:/¿œ”≤≈Ã/digital/lab_1/lab1_1_1/lab1_1_1.srcs/sources_1/new/lab1_1_1.v:23]
+TclStackFree: incorrect freePtr. Call out of sequence?

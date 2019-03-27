@@ -1,0 +1,20 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto f705cb6321864026992984f1cbfe23f1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot LED_test_tb_func_synth xil_defaultlib.LED_test_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 1 for port Latch [H:/gyx verilog/digital/lab_11/lab_11_test/lab_11_test.srcs/sim_1/new/LED_test_tb.v:33]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=32.0,...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.LED_test
+Compiling module xil_defaultlib.LED_test_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot LED_test_tb_func_synth

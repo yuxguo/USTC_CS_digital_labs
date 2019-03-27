@@ -1,0 +1,7 @@
+Running: xsim.dir/decoder_74138_dataflow_tb_behav/xsimk.exe -simmode gui -wdb decoder_74138_dataflow_tb_behav.wdb -simrunnum 0 -socket 5311
+Design successfully loaded
+Design Loading Memory Usage: 8668 KB (Peak: 8668 KB)
+Design Loading CPU Usage: 140 ms
+Simulation completed
+Simulation Memory Usage: 9248 KB (Peak: 9248 KB)
+Simulation CPU Usage: 140 ms

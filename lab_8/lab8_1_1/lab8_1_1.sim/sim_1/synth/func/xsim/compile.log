@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/gyx verilog/digital/lab_8/lab8_1_1/lab8_1_1.sim/sim_1/synth/func/xsim/lab8_1_1_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0__clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module lab8_1_1
+INFO: [VRFC 10-311] analyzing module glbl

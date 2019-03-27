@@ -1,0 +1,12 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sim_1/imports/lab2_2_1/lab2_2_1_partA_tb.v,1539865364,verilog,,,,lab2_2_1_partA_tb,,,,,,,,
+H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/bcdto7.v,1539866317,verilog,,H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sim_1/imports/lab2_2_1/lab2_2_1_partA_tb.v,,bcdto7,,,,,,,,
+H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/circultA.v,1539867330,verilog,,H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/comparator.v,,circultA,,,,,,,,
+H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/comparator.v,1539863978,verilog,,H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1_partA.v,,comparator,,,,,,,,
+H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v,1539866609,verilog,,H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/bcdto7.v,,lab2_2_1,,,,,,,,
+H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1_partA.v,1539865208,verilog,,H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/mux_2to1.v,,lab2_2_1_partA,,,,,,,,
+H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/mux_2to1.v,1539863183,verilog,,H:/gyx verilog/digital/lab_2/lab2_2_1/lab2_2_1.srcs/sources_1/new/lab2_2_1.v,,mux_2to1,,,,,,,,

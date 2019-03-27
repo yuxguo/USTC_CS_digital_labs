@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Mar 16 19:44:26 2019
+# Process ID: 12372
+# Current directory: D:/¿œ”≤≈Ã/digital/lab_11/lab_11_test/lab_11_test.runs/synth_1
+# Command line: vivado.exe -log LED_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LED_test.tcl
+# Log file: D:/¿œ”≤≈Ã/digital/lab_11/lab_11_test/lab_11_test.runs/synth_1/LED_test.vds
+# Journal file: D:/¿œ”≤≈Ã/digital/lab_11/lab_11_test/lab_11_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source LED_test.tcl -notrace

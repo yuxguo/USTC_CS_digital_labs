@@ -1,0 +1,82 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Nov 23 00:35:22 2018
+| Host         : YxGuo running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file lab9_3_1_control_sets_placed.rpt
+| Design       : lab9_3_1
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    15 |
+| Unused register locations in slices containing registers |    18 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |            1 |
+|      8 |            6 |
+|     14 |            5 |
+|    16+ |            3 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              82 |           16 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             164 |           22 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              32 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+--------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+|         Clock Signal        |                      Enable Signal                     |                        Set/Reset Signal                       | Slice Load Count | Bel Load Count |
++-----------------------------+--------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+|  U/inst/clk_out1            |                                                        |                                                               |                2 |              4 |
+|  U2/CLK                     |                                                        |                                                               |                3 |              8 |
+|  U2/CLK                     |                                                        | U3/U0/U0/i_synth/i_baseblox.i_baseblox_counter/clear_count__0 |                1 |              8 |
+|  U2/CLK                     | U3/U0/U0/i_synth/i_baseblox.i_baseblox_counter/THRESH0 | U3/U1/U0/i_synth/i_baseblox.i_baseblox_counter/clear_count__0 |                1 |              8 |
+|  U2/CLK                     | U3/w_1                                                 | U3/U3/U0/i_synth/i_baseblox.i_baseblox_counter/clear_count__0 |                1 |              8 |
+|  U2/CLK                     | U3/w_0                                                 | U3/U2/U0/i_synth/i_baseblox.i_baseblox_counter/clear_count__0 |                1 |              8 |
+|  U2/CLK                     | U3/w_2                                                 | U3/U4/U0/i_synth/i_baseblox.i_baseblox_counter/clear_count__0 |                1 |              8 |
+|  U4/seg3_inferred__0/i__n_0 |                                                        |                                                               |                2 |             14 |
+|  U4/seg0_inferred__0/i__n_0 |                                                        |                                                               |                2 |             14 |
+|  U4/seg1_inferred__0/i__n_0 |                                                        |                                                               |                3 |             14 |
+|  U4/seg4_inferred__0/i__n_0 |                                                        |                                                               |                2 |             14 |
+|  U4/seg2_inferred__0/i__n_0 |                                                        |                                                               |                2 |             14 |
+|  U/inst/clk_out1            |                                                        | U1/cnt[0]_i_1__0_n_0                                          |                6 |             46 |
+|  U/inst/clk_out1            |                                                        | U2/cnt[0]_i_1_n_0                                             |                6 |             46 |
+|  k_reg[31]_i_3_n_0          |                                                        | U4/k[31]_i_1_n_0                                              |                9 |             64 |
++-----------------------------+--------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+
+

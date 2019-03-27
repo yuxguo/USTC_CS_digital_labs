@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Dec 15 21:48:06 2018
+# Process ID: 10080
+# Current directory: H:/gyx verilog/digital/lab_11/lab_11_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8448 H:\gyx verilog\digital\lab_11\lab_11_test\lab_11_test.xpr
+# Log file: H:/gyx verilog/digital/lab_11/lab_11_test/vivado.log
+# Journal file: H:/gyx verilog/digital/lab_11/lab_11_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:/gyx verilog/digital/lab_11/lab_11_test/lab_11_test.xpr}
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {H:/gyx verilog/digital/lab_11/lab_11_test/lab_11_test.runs/impl_1/LED_test.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {H:/gyx verilog/digital/lab_11/lab_11_test/lab_11_test.runs/impl_1/LED_test.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+synth_design -rtl -name rtl_1

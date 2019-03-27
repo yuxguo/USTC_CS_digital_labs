@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab4_1_2.srcs/sources_1/new/calc_even_parity_task.v" \
+"../../../../lab4_1_2.srcs/sim_1/imports/lab4_1_2/calc_even_parity_task_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
